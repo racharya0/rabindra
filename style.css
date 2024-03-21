@@ -150,7 +150,7 @@ a:hover {
 
 section {
   padding-top: 4vh;
-  height: 130vh;
+  height: 110vh;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -318,6 +318,7 @@ section {
 
 #experience {
   position: relative;
+  height: 60vh;
 }
 
 .experience-sub-title {
@@ -353,6 +354,11 @@ article .icon {
   cursor: default;
 }
 
+/*WORK EXPERIENCE SECTION */
+#workexperience {
+  position: relative;
+  height: 90vh;
+}
 /* PROJECTS SECTION */
 
 #projects {
@@ -380,13 +386,32 @@ article .icon {
   border-color: rgb(163, 163, 163);
 }
 
+/* PROJECT 2 SECTION */
+#project2 {
+  position: relative;
+}
+
+/* PROJECT 3 SECTION */
+#project3 {
+  position: relative;
+}
+
+/* PUBLICATIONS */
+
+#publications {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 60vh;
+}
+
 /* CONTACT */
 
 #contact {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  height: 60vh;
 }
 
 .contact-info-upper-container {
