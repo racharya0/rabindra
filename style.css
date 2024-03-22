@@ -318,6 +318,7 @@ section {
 
 #experience {
   position: relative;
+  height: fit-content;
 }
 
 .experience-sub-title {
@@ -363,6 +364,7 @@ article .icon {
 
 #projects {
   position: relative;
+  height: fit-content;
 }
 
 .color-container {
@@ -389,11 +391,13 @@ article .icon {
 /* PROJECT 2 SECTION */
 #project2 {
   position: relative;
+  height: fit-content;
 }
 
 /* PROJECT 3 SECTION */
 #project3 {
   position: relative;
+  height: 130vh;
 }
 
 /* PUBLICATIONS */
