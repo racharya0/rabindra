@@ -1,4 +1,4 @@
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 1400px) {
   #profile {
     height: 83vh;
     margin-bottom: 6rem;
@@ -6,8 +6,8 @@
   .about-containers {
     flex-wrap: wrap;
   }
- 
-  #projects, #experience, #workexperience {
+  #contact,
+  #projects {
     height: fit-content;
   }
 }
@@ -48,10 +48,6 @@
 }
 
 @media screen and (max-width: 600px) {
-  #publications {
-    height: fit-content;
-  }
-
   #contact,
   footer {
     height: 40vh;
