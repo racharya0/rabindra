@@ -11,7 +11,7 @@
     height: fit-content;
   }
   /*added workexperience here*/
-  #workexperience {
+  #workexperience, #project2, #project3 {
     height: fit-content;
   }
 }
@@ -52,10 +52,12 @@
 }
 
 @media screen and (max-width: 600px) {
+ 
   /*added publication, project2 and project3 here */
   #publications, #project2, #project3 {
     height: fit-content;
   }
+  
   /*changed contact height from 40vh to 60vh*/
 
   #contact,
