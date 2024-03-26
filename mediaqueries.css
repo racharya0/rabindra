@@ -10,6 +10,10 @@
   #projects {
     height: fit-content;
   }
+  /*added workexperience here*/
+  #workexperience {
+    height: fit-content;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -48,9 +52,15 @@
 }
 
 @media screen and (max-width: 600px) {
+  /*added publication, project2 and project3 here */
+  #publications, #project2, #project3 {
+    height: fit-content;
+  }
+  /*changed contact height from 40vh to 60vh*/
+
   #contact,
   footer {
-    height: 40vh;
+    height: 60vh;
   }
   #profile {
     height: 83vh;
